@@ -1,0 +1,157 @@
+body {
+    font-family: arial, sans-serif;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* HEADER */
+.header {
+    background: rgb(255, 255, 255);
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+/* AVATAR */
+.avatar {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+/* NOM */
+.name {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* MAIN */
+main {
+    flex: 1;
+}
+
+/* ROLE */
+.role {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* META */
+.meta {
+    margin: 0;
+    color: #333;
+}
+
+/* SECTION */
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+/* BOUTON */
+.btn {
+    display: inline-block;
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+.btn.small {
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+/* COMPÉTENCES */
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.badge {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 999px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* PROJECTS */
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+/* CARTE */
+.card {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+
+    width: 33.33%;
+}
+
+.card:hover {
+    border-color: black;
+}
+
+/* TAG */
+.tag {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+/* TIMELINE */
+.timeline {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.timeline li {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background: white;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
